@@ -26,3 +26,22 @@ O sistema permite cadastrar funcionários em um departamento, aplicar reajustes 
 3. Compile todos os arquivos `.java`:
    ```
    javac *.java
+   ```
+
+4. Execute a classe principal:
+   ```
+   java TesteSistema
+   ```
+
+## Classes do projeto
+
+| Classe | Responsabilidade |
+|---|---|
+| `Funcionario` | Representa um funcionário com seus dados pessoais e profissionais. Possui métodos para alterar dados, aplicar reajuste, demitir e exibir informações. |
+| `Departamento` | Agrupa funcionários em um setor. Gerencia a adição, listagem e cálculo da folha salarial. |
+| `TesteSistema` | Classe principal com o método `main`. Executa o roteiro de testes simulando o uso real do sistema. |
+
+## Aluno
+
+- **Nome:** _Victor Hugo_
+- **Turma:** Informática 2° periodo
